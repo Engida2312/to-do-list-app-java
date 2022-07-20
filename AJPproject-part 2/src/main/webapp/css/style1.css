@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400&display=swap');
+*,
+*::before,
+*::after {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family: 'IBM Plex Mono','monospace';
+    height: 100vh;
+    background-image: url("image/background%20image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    background-image: url("image/login backgrouns.jpg");
+}
+.login form{
+    background-color: #5174d49d;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #004080;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+form{
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0.0em 0.22em 0.6em rgba(0, 0, 0, 0.253);
+    background-color: #0b3469c0;
+}
+input:focus {
+    border: solid 2px #f9b468;
+}
+input {
+    border-radius: 4px;
+    height: 35px;
+    padding: 23px 55px;
+    margin: 5px;
+    background-color: #e5eff8;
+    outline: none;
+    color: #012b3a;
+}
+.btn {
+    margin: 5px;
+    font-weight: 550;
+    padding: 15px 70px;
+    border-radius: 7px;
+    background-color: #f7a05d;
+  }
+  .login .btn {
+    background-color: #fc6886;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .todo input{
+      
+      width: 60%;
+  }
+  .todo-body form{
+    padding: 20px;
+    box-shadow: none;
+      background-color: #ffffff00;
+  }
+  .item-list{
+      padding: 10px;
+      background-color: #e5eff8;
+      min-width: 500px;
+      padding-left: 50px;
+  }
+  .items,.update-form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      width: 100%;
+  }
+  .items .btn, .update,.back{
+      padding: 10px 50px;
+      color: white;
+  }
+  .btn.edit{
+    background-color: #e0d206;
+  }
+  .btn.delete{
+    background-color: #f02112;
+  } 
+  .btn.update{
+   background-color: #0080ff;
+  }
+  .btn.back{
+   background-color: #008080;
+  }
+  

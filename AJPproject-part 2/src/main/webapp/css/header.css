@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.welcome{
+	align-items:center;
+	color: blue;
+	padding: 20px;
+}
